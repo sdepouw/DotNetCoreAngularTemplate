@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreAngularTemplate.Web", "src\DotNetCoreAngularTemplate.Web\DotNetCoreAngularTemplate.Web.csproj", "{80E54C33-65F3-4F45-B9F3-17696821CBF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreAngularTemplate.Web", "src\DotNetCoreAngularTemplate.Web\DotNetCoreAngularTemplate.Web.csproj", "{80E54C33-65F3-4F45-B9F3-17696821CBF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreAngularTemplate.Core", "src\DotNetCoreAngularTemplate.Core\DotNetCoreAngularTemplate.Core.csproj", "{C7CC4BEA-498A-4609-A04A-DA9400822A9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{80E54C33-65F3-4F45-B9F3-17696821CBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E54C33-65F3-4F45-B9F3-17696821CBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80E54C33-65F3-4F45-B9F3-17696821CBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7CC4BEA-498A-4609-A04A-DA9400822A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CC4BEA-498A-4609-A04A-DA9400822A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CC4BEA-498A-4609-A04A-DA9400822A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CC4BEA-498A-4609-A04A-DA9400822A9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
