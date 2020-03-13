@@ -9,9 +9,9 @@ A basic implementation of the default project that Visual Studio creates to get 
 
 ## Actions Taken
 - Created a .NET Core 3.1 Web Application with Angular, configured for HTTPS
-- Created projects for Web (Angular SPA), Core, Infrastrucutre, and Unit Tests (XUnit)
+- Created projects for Web (Angular SPA), Core, Infrastructure, and Unit Tests (XUnit)
 - Created a folder structure for the solution (`src` and `tests` folder)
 - All class library projects are .NET Standard 2.0
 - All projects are configured to treat warnings as errors
 - NPM dependencies were altered via `npm audit fix` to fix vulnerabilities that, as of this project creation, are still the default out of the box behavior for this Visual Studio project template
-  - Manually downgraded `@angular-devkit/build-angular` as per [this known issue with Angular](https://github.com/angular/angular-cli/issues/16902)
+  - Manually downgraded `@angular-devkit/build-angular` as per [this known Angular issue](https://github.com/angular/angular-cli/issues/16902)
