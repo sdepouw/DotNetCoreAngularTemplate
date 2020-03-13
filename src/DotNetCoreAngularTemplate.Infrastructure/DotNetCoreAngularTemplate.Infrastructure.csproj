@@ -9,4 +9,8 @@
     <WarningsAsErrors />
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetCoreAngularTemplate.Core\DotNetCoreAngularTemplate.Core.csproj" />
+  </ItemGroup>
+
 </Project>
