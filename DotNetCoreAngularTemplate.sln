@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8DAFCA48
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreAngularTemplate.UnitTests", "tests\DotNetCoreAngularTemplate.UnitTests\DotNetCoreAngularTemplate.UnitTests.csproj", "{E4F6B632-CB3E-4720-AFF4-BAD2854879F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreAngularTemplate.Infrastructure", "src\DotNetCoreAngularTemplate.Infrastructure\DotNetCoreAngularTemplate.Infrastructure.csproj", "{96B03B1A-A8E1-4807-B3D8-8DA8D14CC1B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{E4F6B632-CB3E-4720-AFF4-BAD2854879F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4F6B632-CB3E-4720-AFF4-BAD2854879F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4F6B632-CB3E-4720-AFF4-BAD2854879F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B03B1A-A8E1-4807-B3D8-8DA8D14CC1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B03B1A-A8E1-4807-B3D8-8DA8D14CC1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B03B1A-A8E1-4807-B3D8-8DA8D14CC1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B03B1A-A8E1-4807-B3D8-8DA8D14CC1B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{80E54C33-65F3-4F45-B9F3-17696821CBF2} = {75946359-CF88-45E4-BF32-E2CF561FEE59}
 		{C7CC4BEA-498A-4609-A04A-DA9400822A9D} = {75946359-CF88-45E4-BF32-E2CF561FEE59}
 		{E4F6B632-CB3E-4720-AFF4-BAD2854879F7} = {8DAFCA48-83E3-4796-BD7E-2745D283B08E}
+		{96B03B1A-A8E1-4807-B3D8-8DA8D14CC1B3} = {75946359-CF88-45E4-BF32-E2CF561FEE59}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E95667C-4D80-4890-8188-36CC042971A0}
