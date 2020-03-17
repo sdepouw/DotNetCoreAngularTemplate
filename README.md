@@ -15,3 +15,4 @@ A basic implementation of the default project that Visual Studio creates to get 
 - All projects are configured to treat warnings as errors
 - NPM dependencies were altered via `npm audit fix` to fix vulnerabilities that, as of this project creation, are still the default out of the box behavior for this Visual Studio project template
   - Manually downgraded `@angular-devkit/build-angular` as per [this known Angular issue](https://github.com/angular/angular-cli/issues/16902)
+- Updated out-of-date NuGet packages
